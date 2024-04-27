@@ -20,3 +20,5 @@ Set your Home Assistant entity in this section:
 * ENTITY2: second HOME ASSISTANT entity you want to control (button or switch type)
 * ENTITY2_NAME: helper entity name, anything you like and fits the requirements of Home Assistant.
 * ENTITY2_ICON: helper entity material icon.
+
+* WEATHER_API_CALL: change your weather entitiy, for example weather.home => /api/state/weather.home
