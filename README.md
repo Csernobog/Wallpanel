@@ -7,6 +7,7 @@ Simple 2-button touchscreen wall panel with MQTT Home Assistant integration. Ful
 
 
 WallPanel in the Home Assistant:
+
 ![alt text](image-2.png)
 
 Tested with:
