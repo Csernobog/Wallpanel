@@ -1,8 +1,16 @@
 # WallPanel01
 
-Simple 2-button touchscreen wall panel with MQTT Home Assistant integration.
+Simple 2-button touchscreen wall panel with MQTT Home Assistant integration. Fully customizable, from colors to button transparency. It can read JPG images from the SD card (recommended size 240x320) and use them as wallpapers.
 
+<<<<<<< HEAD
+![alt text](1-1.png)
+![alt text](2-1.png)
+=======
 ![Uploading image.png…]()
+>>>>>>> e3127b3fc26426a9475943d226aff447d63b2509
+
+WallPanel in the Home Assistant:
+![alt text](image-2.png)
 
 Tested with:
 ESP32-S3-DEVKIT and 240x320 2.8" SPI TFT LCD with touch (ILI9341 + XTP2046 Touch driver)
@@ -22,4 +30,12 @@ Set your Home Assistant entity in this section:
 * ENTITY2_NAME: helper entity name, anything you like and fits the requirements of Home Assistant.
 * ENTITY2_ICON: helper entity material icon.
 
+<<<<<<< HEAD
+## HA settings
+
+Use this blueprint to sync HA entity and WallPanel entity:
+![alt text](image-3.png)
+=======
 * WEATHER_API_CALL: change your weather entitiy, for example weather.home => /api/states/weather.home
+
+>>>>>>> e3127b3fc26426a9475943d226aff447d63b2509
