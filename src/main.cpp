@@ -295,13 +295,13 @@ static const Color kowalsky_color[] PROGMEM = {
 //--------------------------------------------------------------------------------------------------------------------------------
 // Secret vars 
 //--------------------------------------------------------------------------------------------------------------------------------
-#define WIFI_SSID "Balkoland_Guest"             // Your Wifi SSID
-#define WIFI_PASSWORD "QWYMKZUW"                // Your Wifi password
-#define BROKER_ADDR IPAddress(192, 168, 0, 60)  // = Your HA server IP  (xxx, xxx, xxx, xxx) format. NOT xxx.xxx.xxx.xxx!!!!
-#define HA_PORT 8123                            // = Your HA server port
-#define BROKER_USERNAME "mqtt"                  // = User for HA MQTT MOSQUITO Server
-#define BROKER_PASSWORD "mqtt"                  // = password HA MQTT user
-#define TOKEN "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiZGYyYWY5NTBjYzM0MTAwOWRiNmUwOGYxODg3ZTNkMiIsImlhdCI6MTcwOTU5MDk4NCwiZXhwIjoyMDI0OTUwOTg0fQ.AwD74FssPwMCsJbx37kTUigaIozwRGj7JWCPvaw60Vk"
+#define WIFI_SSID "<SSID>"                        // Your Wifi SSID
+#define WIFI_PASSWORD "<PASSWORD>"                // Your Wifi password
+#define BROKER_ADDR IPAddress(X, X, X, X)         // = Your HA server IP  (xxx, xxx, xxx, xxx) format. NOT xxx.xxx.xxx.xxx!!!!
+#define HA_PORT 8123                              // = Your HA server port
+#define BROKER_USERNAME "<MQTT USER>"             // = User for HA MQTT MOSQUITO Server
+#define BROKER_PASSWORD "<MQTT PASS>"             // = password HA MQTT user
+#define TOKEN "Bearer <LONG LIFE TOKEN FROM HA>"  // Token from HA 
 //--------------------------------------------------------------------------------------------------------------------------------
 // Timing setting vars
 //--------------------------------------------------------------------------------------------------------------------------------
